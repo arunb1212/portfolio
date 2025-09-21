@@ -49,7 +49,7 @@ const Profile = () => {
       <div className=" mt-[30px]">
         <p className=" text-center text-2xl font-bold">Education</p>
         <div className="flex justify-evenly mt-[20px]">
-          <div className="border hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]  w-[250px] p-[10px] rounded-lg border-red-100">
+          <div className="border hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]  w-[250px] p-[10px] rounded-lg bg-gray-200 text-black ">
             <div className="flex gap-[10px]">
               <University />
               <p>Atharva University</p>
@@ -58,7 +58,7 @@ const Profile = () => {
             <p>Aug 2022 – Present</p>
             <p>CGPA: 7/10</p>
           </div>
-          <div className="border w-[250px] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] p-[10px] rounded-lg border-red-100">
+          <div className="border w-[250px] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] p-[10px] rounded-lg bg-gray-200 text-black ">
             <div className="flex gap-[10px]">
               <School />
               <p>Durga Devi Saraf</p>
@@ -67,7 +67,7 @@ const Profile = () => {
             <p>Aug 2020 – 2022</p>
             <p>CGPA: 7.5/10</p>
           </div>
-          <div className="border w-[250px] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] p-[10px] ease-in duration-75 linear rounded-lg border-red-100">
+          <div className=" w-[250px] hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] p-[10px] ease-in duration-75 linear rounded-lg bg-gray-200 text-black">
             <div className="flex gap-[10px]">
               <School2 />
               <p>St. Mathew's High School</p>
