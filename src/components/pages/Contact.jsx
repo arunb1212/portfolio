@@ -28,8 +28,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "arun.bhagat@example.com",
-      link: "mailto:arun.bhagat@example.com"
+      value: "arunbhagat302@gmail.com",
+      link: "mailto:arunbhagat302@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
@@ -49,7 +49,7 @@ const Contact = () => {
     {
       icon: <Github className="w-6 h-6" />,
       name: "GitHub",
-      url: "https://github.com/arunbhagat",
+      url: "https://github.com/arunb1212",
       color: "hover:text-gray-400"
     },
     {

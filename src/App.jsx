@@ -8,6 +8,9 @@ import Dock from "./components/Dock";
 import Game from "./components/Game";
 import { Button } from "@/components/ui/button"
 import myimg from "./myimg.png"
+// import cv from "./src/cv.pdf"
+// import cv from "./cv.pdf"
+import cv from "./assets/cv.pdf"
 
 const App = () => {
   const cursorRef = useRef(null);
@@ -51,9 +54,11 @@ const App = () => {
 
         </div>
 
-        <div>
-                  <Button onClick={handlePlayGame}>Play a Game</Button>
+        <div className="flex gap-[20px] font-bold">
+                  <Button  className="font-bold text-lg"  onClick={handlePlayGame}>Play a Game</Button>
+                 <a href={cv} download><Button className="text-lg font-bold">Download my CV</Button></a> 
         </div>
+
         <div>
           
         </div>

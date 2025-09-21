@@ -4,25 +4,25 @@ import { ExternalLink, Github } from 'lucide-react'
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "URl shortner",
+      description: "Full-stack url shortner solution with React, Node.js, and MongoDB. Features include user authentication, payment processing",
+      tech: ["React", "Node.js", "supabase", "mongodb"],
       github: "https://github.com/username/ecommerce",
       live: "https://ecommerce-demo.com",
       image: "https://via.placeholder.com/400x250"
     },
     {
       title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      tech: ["React", "Socket.io", "Express", "PostgreSQL"],
+      description: "A collaborative task management application with real-time updates, drag-and-drop functionality,",
+      tech: ["React", "Express",],
       github: "https://github.com/username/taskapp",
       live: "https://taskapp-demo.com",
       image: "https://via.placeholder.com/400x250"
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      tech: ["React", "OpenWeather API", "Chart.js", "CSS3"],
+      title: "Crypto Price analysis",
+      description: "Real-time crypto price analysis application with, increasing and decreasing price analysis and interactive chart.",
+      tech: ["React", "Geakeo API", "CSS3"],
       github: "https://github.com/username/weather",
       live: "https://weather-demo.com",
       image: "https://via.placeholder.com/400x250"

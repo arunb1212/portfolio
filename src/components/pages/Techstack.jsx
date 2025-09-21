@@ -15,8 +15,8 @@ const Techstack = () => {
         { name: "HTML5", level: 95, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
         { name: "CSS3", level: 90, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
         { name: "Tailwind CSS", level: 85, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
-        { name: "Next.js", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-        { name: "Vue.js", level: 70, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" }
+        { name: "Next.js", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" }
+        
       ]
     },
     {
@@ -26,44 +26,38 @@ const Techstack = () => {
         { name: "Node.js", level: 85, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
         { name: "Express.js", level: 80, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
         { name: "Python", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-        { name: "Django", level: 70, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
-        { name: "PHP", level: 80, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
-        { name: "Laravel", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" },
-        { name: "REST APIs", level: 85, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
-        { name: "GraphQL", level: 70, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" }
+        
+        
+        
       ]
     },
     {
       title: "Database & Cloud",
       icon: <Database className="w-12 h-12" />,
       technologies: [
-        { name: "MongoDB", level: 80, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+        { name: "MongoDB", level: 40, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
         { name: "PostgreSQL", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
-        { name: "MySQL", level: 85, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-        { name: "Firebase", level: 80, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
-        { name: "AWS", level: 70, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
         { name: "Vercel", level: 85, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" },
         { name: "Netlify", level: 80, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg" },
-        { name: "Docker", level: 65, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" }
+        
       ]
     },
-    {
-      title: "Mobile Development",
-      icon: <Smartphone className="w-12 h-12" />,
-      technologies: [
-        { name: "React Native", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-        { name: "Flutter", level: 70, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" },
-        { name: "Ionic", level: 65, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg" },
-        { name: "PWA", level: 80, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" },
-        { name: "Expo", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/expo/expo-original.svg" }
-      ]
-    },
+    // {
+    //   title: "Mobile Development",
+    //   icon: <Smartphone className="w-12 h-12" />,
+    //   technologies: [
+    //     { name: "React Native", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    //     { name: "Flutter", level: 70, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" },
+    //     { name: "Ionic", level: 65, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg" },
+    //     { name: "PWA", level: 80, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" },
+    //     { name: "Expo", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/expo/expo-original.svg" }
+    //   ]
+    // },
     {
       title: "Design & Tools",
       icon: <Palette className="w-12 h-12" />,
       technologies: [
         { name: "Figma", level: 85, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-        { name: "Adobe XD", level: 80, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" },
         { name: "Photoshop", level: 75, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" },
         { name: "Git", level: 90, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
         { name: "VS Code", level: 95, logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
