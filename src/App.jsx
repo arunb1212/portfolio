@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button"
 import myimg from "./myimg.png"
 // import cv from "./src/cv.pdf"
 // import cv from "./cv.pdf"
-import cv from "./assets/cv.pdf"
+import cv from "./assets/resumeCv.pdf"
 
 const App = () => {
   const cursorRef = useRef(null);
